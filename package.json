@@ -14,5 +14,10 @@
     "concurrently": "2.2.0",
     "live-server": "https://github.com/acco/live-server/tarball/master"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack"
+    }
+  ]
 }
