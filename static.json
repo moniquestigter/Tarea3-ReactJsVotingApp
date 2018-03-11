@@ -1,0 +1,6 @@
+{
+    "root": "voting_app/",
+    "routes": {
+        "/**": "index.html"
+    }
+}
