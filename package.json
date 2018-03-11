@@ -7,8 +7,7 @@
     "e2e": "nightwatch",
     "test": "./node_modules/.bin/concurrently -k 'npm run server' 'npm run e2e'",
     "start": "npm run server",
-    "server": "live-server public --host=localhost --port=3000 --middleware=./disable-browser-cache.js",
-    "build": ""
+    "server": "live-server public --host=localhost --port=3000 --middleware=./disable-browser-cache.js"
   },
   "private": true,
   "devDependencies": {
@@ -16,12 +15,6 @@
     "live-server": "https://github.com/acco/live-server/tarball/master"
   },
   "dependencies": {
-    "build": "^0.1.4",
     "express": "^4.16.2"
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/mars/create-react-app-buildpack"
-    }
-  ]
+  }
 }
