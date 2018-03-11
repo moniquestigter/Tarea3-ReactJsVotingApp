@@ -1,5 +1,5 @@
 {
-    "root": "voting_app/",
+    "root": "Users/",
     "routes": {
         "/**": "index.html"
     }
